@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="LIVES">3</integer>
+    <integer name="LANES">3</integer>
+    <integer name="ROWS">4</integer>
+    <integer name="INTERVAL">1000</integer>
+
+</resources>
