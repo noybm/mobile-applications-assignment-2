@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">exc1</string>
+    <string name="RECORDS_KEY">RECORDS_LIST</string>
 </resources>

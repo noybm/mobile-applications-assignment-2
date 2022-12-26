@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer name="LIVES">3</integer>
-    <integer name="LANES">3</integer>
-    <integer name="ROWS">4</integer>
-    <integer name="INTERVAL">1000</integer>
+    <integer name="LANES">5</integer>
+    <integer name="ROWS">5</integer>
+    <integer name="INTERVAL_SLOW">1000</integer>
+    <integer name="INTERVAL_FAST">500</integer>
+    <integer name="MAX_RECORDS">10</integer>
 
 </resources>

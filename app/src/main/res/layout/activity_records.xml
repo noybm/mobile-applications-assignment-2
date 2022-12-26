@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordsActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:id="@+id/fragments_lay"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/records_LAY_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@color/white"/>
+
+        <FrameLayout
+            android:id="@+id/records_LAY_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="24dp"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_lay"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/records_BTN_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="back to menu"
+            android:textSize="20dp"
+            android:layout_marginStart="100dp"
+            android:backgroundTint="#ffbb22"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

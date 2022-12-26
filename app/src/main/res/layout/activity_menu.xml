@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity"
+    android:background="@drawable/menu">
+
+  <TextView
+      android:id="@+id/save_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="SAVE"
+      android:textStyle="bold"
+      android:layout_centerHorizontal="true"
+      android:textSize="50dp"
+      android:textColor="#ffbb22"
+      android:layout_marginTop="60dp">
+
+  </TextView>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/save_text"
+      android:text="THE MOUSE"
+      android:textStyle="bold"
+      android:layout_centerHorizontal="true"
+      android:textSize="50dp"
+      android:textColor="#ffbb22">
+
+  </TextView>
+
+  <Button
+      android:id="@+id/menu_BTN_start_slow"
+      android:layout_width="180dp"
+      android:layout_height="50dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="250dp"
+      android:backgroundTint="#ffbb22"
+      android:textColor="@color/white"
+      android:text="START SLOW"
+      android:textSize="15dp"/>
+
+
+  <Button
+      android:id="@+id/menu_BTN_start_fast"
+      android:layout_width="180dp"
+      android:layout_height="50dp"
+      android:layout_centerInParent="true"
+      android:layout_below="@id/menu_BTN_start_slow"
+      android:layout_marginTop="20dp"
+      android:backgroundTint="#ffbb22"
+      android:textColor="@color/white"
+      android:text="Start fast"
+      android:textSize="15dp" />
+
+  <Button
+    android:id="@+id/menu_BTN_start_tilt"
+      android:layout_width="180dp"
+      android:layout_height="50dp"
+      android:layout_centerInParent="true"
+    android:layout_marginTop="20dp"
+      android:layout_below="@id/menu_BTN_start_fast"
+    android:backgroundTint="#ffbb22"
+    android:text="sensor mode"/>
+
+
+
+  <Button
+      android:id="@+id/menu_BTN_table"
+      android:layout_width="180dp"
+      android:layout_height="50dp"
+      android:layout_centerInParent="true"
+      android:layout_below="@id/menu_BTN_start_tilt"
+      android:layout_marginTop="20dp"
+      android:backgroundTint="#ffbb22"
+      android:textColor="@color/white"
+      android:text="records table"
+      android:textSize="15dp"
+      />
+
+
+</RelativeLayout>
